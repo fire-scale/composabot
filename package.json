@@ -1,0 +1,10 @@
+{
+  "dependenciesMeta": {
+    "@next/font@13.0.7": {
+      "unplugged": true
+    }
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
