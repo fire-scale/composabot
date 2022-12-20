@@ -4,7 +4,10 @@
       "unplugged": true
     }
   },
-  "devDependencies": {
-    "typescript": "^4.9.4"
+  "scripts": {
+    "dev": "(cd website;pnpm next dev)",
+    "infra:plan": "(cd server;pnpm terraform plan)",
+    "infra:exec": "(cd server;pnpm terraform apply)",
+    "infra:undo": "(cd server;pnpm terraform destroy)"
   }
 }

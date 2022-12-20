@@ -1,10 +1,13 @@
 # Open Skynet
 
-AI bots for Discord (other platforms will be added if there's a demand)
+AI bots for Discord (other platforms will be added. Which ones and when are TBD)
 
 ## Supported Bots:
 - ChatGPT (chats with you)
 - Stable Diffusion (generates images)
+- Midjourney (generates images)
+
+Over the lifetime of this project we plan to support many more as new, more sophisticated AIs come online
 
 ## Usage
 
@@ -19,7 +22,8 @@ Try before you buy: you can demo the bots in the open skynet discord.
 Currently we have the following soft limits for bot usage:
 
 - ChatGPT: 1500 prompt responses per month per discord server
-- Stable Diffusion: 500 prompt responses per month per discord sever
+- Stable Diffusion: 500 prompt responses per month per discord server
+- Midjourney: 500 prompt responses per month per discord server
 
 We will increase these limits in the future as usage & backend scales. These are considered soft limits as we might allow some high demand discord servers to breach these limits if overall usage between all servers is low.
 
